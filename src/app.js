@@ -12,11 +12,11 @@ import "react-dates/lib/css/_datepicker.css";
 
 const store = configureStore();
 
-const unsubscribe = store.subscribe(() => {
-  let state = store.getState();
-  let expenses = getVisibleExpenses(state.expenses, state.filters);
-  console.log(expenses);
-});
+// const unsubscribe = store.subscribe(() => {
+//   let state = store.getState();
+//   let expenses = getVisibleExpenses(state.expenses, state.filters);
+//   console.log(expenses);
+// });
 
 // let expenseOne = store.dispatch(
 //   addExpense({
